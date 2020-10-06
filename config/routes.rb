@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get '/', to: 'landing#index', as: 'root'
 
   # yung namespace
-  get   '/admin/dashboard',      to: 'admin/dashboard#show', as: 'admin_dashboard'
+  # get   '/admin/dashboard',      to: 'admin/dashboard#show', as: 'admin_dashboard'
 
   get   '/admin/items',          to: 'admin/items#index',    as: 'admin_items'
   get   '/admin/items/new',      to: 'admin/items#new',      as: 'new_admin_item'
